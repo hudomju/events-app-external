@@ -1,5 +1,5 @@
 # Use Google base image for NodeJS
-FROM launcher.gcr.io/google/nodejs
+FROM node:12.18.1
 
 COPY . /app/
 
